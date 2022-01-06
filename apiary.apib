@@ -1,0 +1,53 @@
+FORMAT: 1A
+HOST: https://localhost:3000
+
+# Pets 
+Simple API to create, update and list information about registered pets.
+
+## Pets resources [/pets]
+
+
+
+### List all pets [GET]
+
++ Response 200 (application/json)
+
+        [
+            {
+                "id": 1,
+                "nome": "Buddy",
+                "racao": "Pastor Alemão",
+                "porte": "Grande"
+            }
+        ]
+
+### Show a especific pet [GET /pets/1]
+
++ Response 200 (application/json)
+
+        {
+            "id": 1,
+            "nome": "Buddy",
+            "racao": "Pastor Alemão",
+            "porte": "Grande"
+        }
+
+### Create a new pet [POST /pets]
+
++ Request (application/json)
+        
+        {
+            "nome": "Buddy",
+            "racao": "Pastor Alemão",
+            "porte": "Grande"
+        }
+
++ Response 201 (application/json)
+
+    + Body
+
+            {
+                "nome": "Buddy",
+                "racao": "Pastor Alemão",
+                "porte": "Grande"
+            }
