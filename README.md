@@ -65,7 +65,7 @@ After running the rspec tests, one file will be create on coverage folder 'cover
 
 ## Written by
 
-Flavio Avila
-flavio.avila.silva@outlook.com
-https://github.com/flavioavilasilva
+*Flavio Avila*<br>
+flavio.avila.silva@outlook.com<br>
+https://github.com/flavioavilasilva<br>
 https://www.linkedin.com/in/flavio-avila-7775702b/
